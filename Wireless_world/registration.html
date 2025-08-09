@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <style>
+    .register{
+      margin-top: 150px;
+      margin-left: 500px;
+      border: 2px black solid;
+      height: 450px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 200px;
+      backdrop-filter: blur(20px);;
+    }
+    .btn{
+      background-color: black;
+      color: aliceblue;
+      margin-top: 20px;
+    }
+    .back{
+      background-image: url("4.lpg.jpeg");
+    }
+    body{
+    background-image: url(4.lpg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+  </style>
+</head>
+<body class="back">
+<div class="register">
+    <div>
+        <h3>Registration</h3>
+        <input type="text" placeholder="First name"><br><br>
+        <label for="first name"></label>
+        <input type="text" placeholder="Last name"><br><br>
+        <label for="Last name"></label>
+        <input type="number" placeholder="Contact Number"><br><br>
+        <input type="text" placeholder="E-mail"><br><br>
+        <label for="E-mail"></label>
+        <input type="number" placeholder="Cnic no"><br><br>
+        <label for="Cnic no"></label>
+        <input type="number" placeholder="opt code">
+        <label for="opt code"></label><br>
+        <label><input type="checkbox">Male </label>
+        <label><input type="checkbox">Female </label><br>
+        <button class="btn">Register</button>
+    </div>
+</div>
+</body>
+</html>
